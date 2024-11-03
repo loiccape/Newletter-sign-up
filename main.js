@@ -8,7 +8,8 @@ const onFormSubmit = function(event) {
         
         errorMessage.textContent = "Please enter a valid email address";
         errorMessage.style.display = 'block';
-        emailInput.style.backgroundColor= "rgba(255, 97, 85, 0.5)"
+        emailInput.style.backgroundColor= "rgba(255, 97, 85, 0.5)";
+        emailInput.style.border ="1px solid rgba(255, 97, 85)"
         emailInput
     } else {
         window.location.href = "./thanks.html"
