@@ -79,7 +79,7 @@ form > button {
   border-radius: 10px;
 }
 .errorMessage {
-    color: red;
+    color: #FF6155;
     font-size: 0.9em;
     position: absolute;
     right: 0;
